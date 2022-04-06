@@ -13,9 +13,9 @@ import javax.enterprise.context.RequestScoped;
  *
  * @author nyamp
  */
-@Named(value = "bean")
+@Named(value = "bean2")
 @RequestScoped
-public class Bean {
+public class Bean2 {
 
     private int nombre;
 
@@ -36,6 +36,6 @@ public class Bean {
         return l;
     }
     public String afficher() {
-        return "affichage_3?nb="+ nombre + "&faces-redirect=true";
+        return "affichage_4?nb="+ nombre + "&faces-redirect=true";
     }
 }
